@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aff30848-68a5-4383-854a-fd16a3c9a00e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vita_com$v1_test_go.coverage" NAME="v1_test.go Coverage Results" MODIFIED="1500644063850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/vita_com$TestV1_Aproove_in_v1_test_go.coverage" NAME="TestV1_Aproove in v1_test.go Coverage Results" MODIFIED="1500630548584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/vita_com$TestV1_Approve_in_v1_test_go.coverage" NAME="TestV1_Approve in v1_test.go Coverage Results" MODIFIED="1500639805663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="products" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="grpc.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grpc/grpc.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="94" column="18" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v1.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customer/v1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="165" column="0" lean-forward="true" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#NewV1#0" expanded="false" />
+                <element signature="n#!!block;n#Test#0" expanded="false" />
+                <element signature="n#!!block;n#AddToOrder#0" expanded="false" />
+                <element signature="n#!!block;n#RemoveFromOrder#0" expanded="false" />
+                <element signature="n#!!block;n#ListCafes#0" expanded="false" />
+                <element signature="n#!!block;n#ListProducts#0" expanded="false" />
+                <element signature="n#!!block;n#OpenCart#0" expanded="false" />
+                <element signature="n#!!block;n#CloseCart#0" expanded="false" />
+                <element signature="n#!!block;n#AddToCart#0" expanded="false" />
+                <element signature="n#!!block;n#RemoveFromCart#0" expanded="false" />
+                <element signature="n#!!block;n#Checkout#0" expanded="false" />
+                <element signature="n#!!block;n#ListCarts#0" expanded="false" />
+                <element signature="n#!!block;n#ListCategories#0" expanded="false" />
+                <element signature="n#!!block;n#ListCategory#0" expanded="false" />
+                <element signature="n#!!block;n#Declined#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postgres.test.products" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.products">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+              <column-attributes>
+                <column name="ctid" enabled="false" />
+              </column-attributes>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postgres.test.orders" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.orders">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+              <column-attributes>
+                <column name="ctid" enabled="false" />
+              </column-attributes>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postgres.test.cart" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.cart">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+              <column-attributes>
+                <column name="ctid" enabled="false" />
+              </column-attributes>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v1_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer/v1_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+              <folding>
+                <element signature="e#18#85#0" expanded="true" />
+                <element signature="n#!!block;n#setup#0" expanded="false" />
+                <element signature="e#197#227#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_OpenCart#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_AddToCart#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_AddToOrder#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_RemoveFromOrder#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_ListCafes#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_ListProducts#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_CloseCart#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_RemoveFromCart#0" expanded="false" />
+                <element signature="n#!!block;n#TestV1_Test#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>products</find>
+      <find>product</find>
+      <find>Why_not</find>
+      <find>AddToCart</find>
+      <find>Aproove</find>
+      <find>cafe</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/delivery/service.go" />
+        <option value="$PROJECT_DIR$/v1.go" />
+        <option value="$PROJECT_DIR$/delivery_pb/service.go" />
+        <option value="$PROJECT_DIR$/delivery-app/delivery.go" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e746dff3-d86c-41c5-a7c6-844cda38164e/console.sql" />
+        <option value="$PROJECT_DIR$/tuktuk/v1.go" />
+        <option value="$PROJECT_DIR$/cafeshop/v1_tests.go" />
+        <option value="dbsequence:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.products_id_seq" />
+        <option value="$PROJECT_DIR$/cafeshop/v1_test.go" />
+        <option value="$PROJECT_DIR$/cafeshop/v1.go" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2ae2611f-a890-43e3-979f-78a908b062c3/console.sql" />
+        <option value="$PROJECT_DIR$/grpc/grpc.pb.go" />
+        <option value="$PROJECT_DIR$/grpc/grpc.proto" />
+        <option value="$PROJECT_DIR$/customer/v1_test.go" />
+        <option value="$PROJECT_DIR$/customer/v1.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="36" />
+    <option name="y" value="22" />
+    <option name="width" value="1242" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delivery_pb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vita.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;DB2 (LUW)" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="PostgreSQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="go" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/user/go/src/vita.com/customer/v1.go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grpc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestV1_RemoveFromCart in v1_test.go">
+    <configuration default="false" name="TestV1_ListCafes in v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/customer" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="vita.com/customer" />
+      <pattern value="^TestV1_ListCafes$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestV1_ListProducts in v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/customer" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="vita.com/customer" />
+      <pattern value="^TestV1_ListProducts$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestV1_CloseCart in v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/customer" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="vita.com/customer" />
+      <pattern value="^TestV1_CloseCart$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in 'vita.com/cafeshop'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/cafeshop" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="vita.com/cafeshop" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestV1_RemoveFromCart in v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/customer" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="vita.com/customer" />
+      <pattern value="^TestV1_RemoveFromCart$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <filePath value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <package value="vita.com" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="vita.com" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="vita.com" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestV1_ListCafes in v1_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestV1_ListProducts in v1_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestV1_CloseCart in v1_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.All in 'vita.com/cafeshop'" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestV1_RemoveFromCart in v1_test.go" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestV1_RemoveFromCart in v1_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.All in 'vita.com/cafeshop'" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestV1_CloseCart in v1_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestV1_ListProducts in v1_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestV1_ListCafes in v1_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_'vita_com_cafeshop' - 2017.07.26 at 19h 49m 49s.xml">
+      <configuration name="All in 'vita.com/cafeshop'" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_CloseCart_in_v1_test_go - 2017.07.26 at 19h 48m 09s.xml">
+      <configuration name="TestV1_CloseCart in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_ListCafes_in_v1_test_go - 2017.07.26 at 17h 53m 42s.xml">
+      <configuration name="TestV1_ListCafes in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_ListProducts_in_v1_test_go - 2017.07.26 at 18h 17m 24s.xml">
+      <configuration name="TestV1_ListProducts in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_ListProducts_in_v1_test_go - 2017.07.26 at 19h 33m 59s.xml">
+      <configuration name="TestV1_ListProducts in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_ListProducts_in_v1_test_go - 2017.07.26 at 19h 36m 59s.xml">
+      <configuration name="TestV1_ListProducts in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_ListProducts_in_v1_test_go - 2017.07.26 at 19h 37m 48s.xml">
+      <configuration name="TestV1_ListProducts in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_RemoveFromCart_in_v1_test_go - 2017.07.26 at 19h 53m 58s.xml">
+      <configuration name="TestV1_RemoveFromCart in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestV1_RemoveFromOrder_in_v1_test_go - 2017.07.26 at 16h 58m 04s.xml">
+      <configuration name="TestV1_RemoveFromOrder in v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="v1_test_go - 2017.07.26 at 13h 17m 42s.xml">
+      <configuration name="v1_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="36" y="22" width="1242" height="778" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31917807" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29916668" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798833" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.503231" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24313408" sideWeight="0.475162" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36734694" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2638484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3657534" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26" sideWeight="0.52483803" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798833" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.503231" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3452055" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26" sideWeight="0.52483803" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2638484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31917807" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24333334" sideWeight="0.475162" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3657534" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="46" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11280">
+          <caret line="752" column="59" lean-forward="false" selection-start-line="752" selection-start-column="0" selection-end-line="752" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="135" column="49" lean-forward="false" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!block;n#NewV1#0" expanded="false" />
+            <element signature="n#!!block;n#Test#0" expanded="false" />
+            <element signature="n#!!block;n#AddToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#ListCafes#0" expanded="false" />
+            <element signature="n#!!block;n#ListProducts#0" expanded="false" />
+            <element signature="n#!!block;n#OpenCart#0" expanded="false" />
+            <element signature="n#!!block;n#CloseCart#0" expanded="false" />
+            <element signature="n#!!block;n#AddToCart#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromCart#0" expanded="false" />
+            <element signature="n#!!block;n#Checkout#0" expanded="false" />
+            <element signature="n#!!block;n#ListCarts#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategories#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategory#0" expanded="false" />
+            <element signature="n#!!block;n#Declined#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.cart">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.orders">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuktuk/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="107" column="35" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="107" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!block;n#NewV1#0" expanded="false" />
+            <element signature="n#!!block;n#Test#0" expanded="false" />
+            <element signature="n#!!block;n#AddToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#ListCafes#0" expanded="false" />
+            <element signature="n#!!block;n#ListProducts#0" expanded="false" />
+            <element signature="n#!!block;n#OpenCart#0" expanded="false" />
+            <element signature="n#!!block;n#CloseCart#0" expanded="false" />
+            <element signature="n#!!block;n#AddToCart#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromCart#0" expanded="false" />
+            <element signature="n#!!block;n#Checkout#0" expanded="false" />
+            <element signature="n#!!block;n#ListCarts#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategories#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategory#0" expanded="false" />
+            <element signature="n#!!block;n#Declined#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafeshop/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuktuk/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#NewV1#0" expanded="false" />
+            <element signature="n#!!block;n#Test#0" expanded="false" />
+            <element signature="n#!!block;n#AddToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#ListCafes#0" expanded="false" />
+            <element signature="n#!!block;n#ListProducts#0" expanded="false" />
+            <element signature="n#!!block;n#OpenCart#0" expanded="false" />
+            <element signature="n#!!block;n#CloseCart#0" expanded="false" />
+            <element signature="n#!!block;n#AddToCart#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromCart#0" expanded="false" />
+            <element signature="n#!!block;n#Checkout#0" expanded="false" />
+            <element signature="n#!!block;n#ListCarts#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategories#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategory#0" expanded="false" />
+            <element signature="n#!!block;n#Declined#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery_pb/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2ae2611f-a890-43e3-979f-78a908b062c3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.cafes">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="70" column="72" lean-forward="false" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+          <folding>
+            <element signature="n#!!block;n#NewV1#0" expanded="false" />
+            <element signature="n#!!block;n#Test#0" expanded="false" />
+            <element signature="n#!!block;n#AddToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#ListCafes#0" expanded="false" />
+            <element signature="n#!!block;n#ListProducts#0" expanded="false" />
+            <element signature="n#!!block;n#OpenCart#0" expanded="false" />
+            <element signature="n#!!block;n#CloseCart#0" expanded="false" />
+            <element signature="n#!!block;n#AddToCart#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromCart#0" expanded="false" />
+            <element signature="n#!!block;n#Checkout#0" expanded="false" />
+            <element signature="n#!!block;n#ListCarts#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategories#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategory#0" expanded="false" />
+            <element signature="n#!!block;n#Declined#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery-app/delivery.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="234" column="4" lean-forward="false" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="4" lean-forward="false" selection-start-line="82" selection-start-column="18" selection-end-line="83" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.products">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e746dff3-d86c-41c5-a7c6-844cda38164e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery_pb/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery-app/delivery.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="234" column="4" lean-forward="false" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/e746dff3-d86c-41c5-a7c6-844cda38164e/postgres.test.cafes" />
+    <entry file="file://$PROJECT_DIR$/customer/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!block;n#NewV1#0" expanded="false" />
+            <element signature="n#!!block;n#Test#0" expanded="false" />
+            <element signature="n#!!block;n#AddToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#ListCafes#0" expanded="false" />
+            <element signature="n#!!block;n#ListProducts#0" expanded="false" />
+            <element signature="n#!!block;n#OpenCart#0" expanded="false" />
+            <element signature="n#!!block;n#CloseCart#0" expanded="false" />
+            <element signature="n#!!block;n#AddToCart#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromCart#0" expanded="false" />
+            <element signature="n#!!block;n#Checkout#0" expanded="false" />
+            <element signature="n#!!block;n#ListCarts#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategories#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategory#0" expanded="false" />
+            <element signature="n#!!block;n#Declined#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1.go" />
+    <entry file="dbDummy://dbtable:/90c95377/e746dff3-d86c-41c5-a7c6-844cda38164e/postgres.test.cafes" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e746dff3-d86c-41c5-a7c6-844cda38164e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="210" lean-forward="false" selection-start-line="2" selection-start-column="210" selection-end-line="2" selection-end-column="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/32caff8f-c7ed-4bbb-8bef-042029d59032/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.category">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.public&amp;dot;products">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.cafes">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery_pb/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery-app/delivery.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.public.products">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbsequence:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.products_id_seq">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="621" column="0" lean-forward="false" selection-start-line="621" selection-start-column="0" selection-end-line="621" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/database/sql/sql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="1239" column="14" lean-forward="false" selection-start-line="1239" selection-start-column="14" selection-end-line="1239" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/mattes/migrate/database/ql/ql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2ae2611f-a890-43e3-979f-78a908b062c3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9061">
+          <caret line="715" column="50" lean-forward="false" selection-start-line="715" selection-start-column="50" selection-end-line="715" selection-end-column="50" />
+          <folding>
+            <element signature="e#397#559#0" expanded="true" />
+            <marker date="1501061066000" expanded="false" signature="404:480" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.cart">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.orders">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/90c95377/2ae2611f-a890-43e3-979f-78a908b062c3/postgres.test.products">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuktuk/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafeshop/v1_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafeshop/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/grpc.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="94" column="18" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/v1_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="e#18#85#0" expanded="true" />
+            <element signature="n#!!block;n#setup#0" expanded="false" />
+            <element signature="e#197#227#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_OpenCart#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_AddToCart#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_AddToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_RemoveFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_ListCafes#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_ListProducts#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_CloseCart#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_RemoveFromCart#0" expanded="false" />
+            <element signature="n#!!block;n#TestV1_Test#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer/v1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="165" column="0" lean-forward="true" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#NewV1#0" expanded="false" />
+            <element signature="n#!!block;n#Test#0" expanded="false" />
+            <element signature="n#!!block;n#AddToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#ListCafes#0" expanded="false" />
+            <element signature="n#!!block;n#ListProducts#0" expanded="false" />
+            <element signature="n#!!block;n#OpenCart#0" expanded="false" />
+            <element signature="n#!!block;n#CloseCart#0" expanded="false" />
+            <element signature="n#!!block;n#AddToCart#0" expanded="false" />
+            <element signature="n#!!block;n#RemoveFromCart#0" expanded="false" />
+            <element signature="n#!!block;n#Checkout#0" expanded="false" />
+            <element signature="n#!!block;n#ListCarts#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategories#0" expanded="false" />
+            <element signature="n#!!block;n#ListCategory#0" expanded="false" />
+            <element signature="n#!!block;n#Declined#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

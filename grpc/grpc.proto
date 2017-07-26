@@ -1,0 +1,130 @@
+ syntax = "proto3";
+
+ option java_multiple_files = true;
+ option java_package = "io.grpc.tossadar.delivery_pb";
+ option java_outer_classname = "DeusDeliveryProto";
+ option objc_class_prefix = "DDP";
+
+ package delivery_pb;
+
+
+ service Customer{
+  rpc AddToOrder(Order) returns (nil){};
+  rpc RemoveFromOrder(Order) returns (nil){};
+  rpc ListCategories(nil) returns (Products){};
+  rpc ListCategory(Product) returns (nil){};
+  rpc ListCafes(nil) returns (Cafes){};
+  rpc Declined(Why_not) returns (Order);
+  rpc ListProducts(Cafe)  returns (Products){};
+  rpc OpenCart(nil) returns (nil){}
+  rpc CloseCart(Cart) returns (nil){};
+  rpc AddToCart(Cart) returns (nil) {};
+  rpc RemoveFromCart(Cart) returns (nil) {};
+  rpc Checkout(Cart) returns (Cart) {};
+  rpc ListCarts(nil) returns (nil) {};
+ }
+
+ service CafeShop{
+     rpc Aproove(Order) returns (Approve_answer){};
+     rpc Decline(Why_not) returns (Why_not){};
+     rpc ListCarts(nil) returns (Carts){};
+ }
+
+ service TukTuk{
+     rpc OnIt(OnItReq) returns (Approve_answer){};
+     rpc ListOrdersToDeliver(location) returns (OrdersToDeliver);
+ }
+
+ message OnItReq{
+  location location = 1;
+  int32 orderId = 2;
+ }
+ message nil{
+
+ }
+
+ message location{
+     float longitude = 1;
+     float latitude = 2;
+ }
+
+ message OrdersToDeliver{
+     repeated OrderToDeliver otd = 1;
+ }
+
+ message OrderToDeliver{
+     Order order = 1;
+     bool aprooved_by_cafe = 2;
+     int32 id = 3;
+ }
+ message Why_not{
+     string whyNot = 1;
+     int32 cartId = 2;
+ }
+
+ message Approve_answer{
+     bool Approve_answer = 1;
+ }
+
+ message Order{
+  int32 productId = 1;
+  int32 OrderId = 2;
+  string comment = 3;
+  int32 price = 4;
+  int32 cartId = 5;
+ }
+
+ message Cafe{
+     int32 Id = 1;
+  string name = 2;
+  repeated string tags = 3;
+  location location = 4;
+  string link = 5;
+  bool featured = 6;
+  int32 position = 7;
+ }
+
+ message Product{
+  string name = 1;
+  int32 price = 2;
+  string description = 3;
+  int32 cafeId = 4;
+  repeated string tags = 5;
+  int32 Id = 6;
+  string link = 7;
+  int32 categoryId = 8;
+  bool cat = 9;
+ }
+
+ message Cart{
+     int32 cartid = 1;
+     bool open = 2;
+     location PlaceToDeliver = 3;
+     int32 price = 4;
+     bool aprooved_by_cafe = 5;
+     bool tuktuk_is_on_it = 6;
+ }
+
+ message AddToCartReq{
+     int32 orderId = 1;
+     int32 cartId = 2;
+     //Order orders = 3;
+    // Cart cart = 4;
+
+ }
+
+ message Cafes{
+     repeated Cafe cafe = 1;
+ }
+
+ message Orders{
+   repeated Order order = 1;
+ }
+
+ message Products {
+     repeated Product products = 1;
+ }
+
+ message Carts{
+     repeated Cart carts = 1;
+ }
