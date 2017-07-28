@@ -93,10 +93,40 @@ func TestV1_RemoveFromCart(t *testing.T) {
 		t.FailNow()
 	}
 }
-func ()  {
-	
+func TestV1_Checkout(t *testing.T) {
+	setup()
+	c,e := api.Checkout(context.Background(),&pb.Cart{1,true,&pb.Location{123.12,456.45},100,false,false})
+	if e != nil{
+		fmt.Println("FAILED to Close Cart e = ",e)
+		t.FailNow()
+	}
+	fmt.Println("c = ",c)
 }
+func TestV1_ListCarts(t *testing.T) {
+	setup()
+	_,e := api.ListCarts(context.Background(),&pb.Nil{})
+	if e != nil{
+		fmt.Println("FAILED to List Carts e = ",e)
+		t.FailNow()
+	}
+}
+func TestV1_ListCategories(t *testing.T) {
+	setup()
+	_,e := api.ListCategories(context.Background(),&pb.Nil{})
+	if e != nil{
+		fmt.Println("FAILED to List Cats = ",e)
+		t.FailNow()
+	}
+}
+func TestV1_ListCategory(t *testing.T) {
+	setup()
 
+	_,e := api.ListCategory(context.Background(),&pb.Product{"PIZZA",0,"COOL FOOD",1,[]string{"qwe","asd","ZXC"},4,"https://google.com",0,true})
+	if e != nil{
+		fmt.Println("FAILED to LIstCat e = ",e)
+		t.FailNow()
+	}
+}
 func TestV1_Test(a *testing.T) {
 	t := time.Now()
 	fmt.Println("TEST WEEKDAY:", t.Weekday())

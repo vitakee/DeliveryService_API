@@ -13,43 +13,35 @@ type V1 struct {
 	db *sql.DB
 }
 
-const (
-	DB_USER     = "postgres"
-	DB_PASSWORD = "postgres"
-	DB_NAME     = "postgres"
-	DB_PORT		= 32768
-)
-func NewV1()(*V1,error){
-	dbinfo := fmt.Sprintf("user=%s password=%s dbname=%s port=%v sslmode=disable",
-		DB_USER, DB_PASSWORD, DB_NAME, DB_PORT)
+func NewV1(dbPort int)(*V1,error){
 
-	db,err := sql.Open("postgres", dbinfo)
-	if err != nil {
-		fmt.Println("ERROR: ",err)
-		return nil,err
+
+	var dbConnString=fmt.Sprintf("postgres://postgres@localhost:%v?sslmode=disable",dbPort)
+	var db,e = sql.Open("postgres",dbConnString)
+
+	if e!=nil{
+		return nil,e
 	}
-	if err=db.Ping();err!=nil{
-		fmt.Println("Connect to db failed",err)
-		return nil,err
+	if e=db.Ping();e!=nil{
+		return nil,e
 	}
 
-	return &V1{db:db},nil
-	return &V1{},nil
+	return &V1{db:db},e
 }
 
-/*DONE*/ func (v *V1)OnIt(ctx context.Context, oir *pb.OnItReq) (*pb.AprooveAnswer, error){
+/*DONE*/ func (v *V1)OnIt(ctx context.Context, oir *pb.OnItReq) (*pb.ApproveAnswer, error){
 
 
-       rows,err := v.db.Query("UPDATE test.orders SET tuktuk_is_on_it = 'true' WHERE id = %v",oir.OrderId)
+       rows,err := v.db.Query("UPDATE test.cart SET tuktuk_is_on_it = 'true' WHERE cartid = $1",oir.OrderId)
 	if err!=nil {
 		fmt.Println("cannot  set on it true:",err)
 	}
 	fmt.Println("",rows)
-	aproove_answer := true
-	return &pb.AprooveAnswer{aproove_answer},nil
+	approve_answer := true
+	return &pb.ApproveAnswer{approve_answer},err
 }
-/*DONE*/ func (v *V1)ListOrdersToDeliver(context.Context, *pb.Location) (*pb.OrdersToDeliver, error){
-	rows,err := v.db.Query("SELECT FROM test.orders WHERE aprooved_by_cafe = 'true'")
+/*DONE*/ func (v *V1)ListOrdersToDeliver(context.Context) (*pb.OrdersToDeliver, error){
+	rows,err := v.db.Query("SELECT FROM test.cart WHERE approved_by_cafe = 'true'")
 	if err != nil {
 		fmt.Println("Failed to get orders to deliver", err)
 		return &pb.OrdersToDeliver{}, status.New(codes.Internal, err.Error()).Err()

@@ -28,7 +28,6 @@ func TestV1_DBTest(t *testing.T) {
 		t.FailNow()
 	}
 }
-
 func TestV1_Approve(t *testing.T) {
 setup()
 	_,e := api.Approve(context.Background(),0)
@@ -38,7 +37,6 @@ setup()
 		t.FailNow()
 	}
 }
-
 func TestV1_Decline(t *testing.T) {
 	setup()
 	whynot := &pb.WhyNot{"Beacause,we dont have anymore sousage",1}
@@ -51,7 +49,6 @@ func TestV1_Decline(t *testing.T) {
 	}
 
 }
-
 func TestV1_ListOrders(t *testing.T) {
 setup()
 	_,e :=api.ListCarts(context.Background())

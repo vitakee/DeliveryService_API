@@ -163,14 +163,13 @@ t := time.Now()
 
 	return &pb.Nil{},nil
 }
-
 	     func (v *V1)Checkout(ctx context.Context,c *pb.Cart) (*pb.Cart, error) {
-			_ , e := v.db.Exec("UPDATE test.cart SET approved_by_cafe = false WHERE id = $1",c.Cartid)
+			_ , e := v.db.Exec("UPDATE test.cart SET approved_by_cafe = false WHERE cartid = $1",c.Cartid)
 			 if e != nil{
 			fmt.Println("ERROR : FAILED TO CHECKOUT ERROR MESSAGE IS :::",e)
 				 return &pb.Cart{},e
 			 }
-	     return &pb.Cart{},nil
+	     return &pb.Cart{c.Cartid,c.Open,c.PlaceToDeliver,c.Price,c.AproovedByCafe,c.TuktukIsOnIt},nil
          }
          func (v *V1)ListCarts(context.Context, *pb.Nil) (*pb.Carts, error) {
 
@@ -219,6 +218,7 @@ t := time.Now()
 
 			 return &pb.Products{products},nil
          }
+
          func (v *V1)ListCategory(c context.Context,cat *pb.Product) (*pb.Products, error){
 
 			 rows ,e := v.db.Query("SELECT * FROM test.products WHERE id = $1",cat.Id)
